@@ -1,0 +1,15 @@
+//Boleanos
+console.log(true)
+console.log(false)
+//expresiones boolenas
+console.log(5>3)
+console.log(6<1)
+console.log(8==8)
+console.log(5!=4)
+console.log(5<=5)
+console.log(!true)
+console.log(!false)
+
+//Operadoreslogicos && Y, || O
+console.log(5>3 && 7==8)
+console.log(5>3 || 7==8)

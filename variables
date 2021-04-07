@@ -1,0 +1,26 @@
+//variables
+var nombre = "Pedro Perez"
+var edad = 20
+var casado = false
+
+console.log(nombre)
+console.log(casado)
+console.log(edad)
+
+//como nombrar variable
+var primerNombre
+
+var $edad
+var _c$S4do = false
+
+//ejempls invalidos OJO:
+//var 6nombre
+//var ed&ad
+
+//Obtener informacion del usuario
+var edad = prompt("Cual es tu edad?")
+
+//Convertir un string anumero usar  parseint
+console.log(edad+21)
+edad=parseInt(edad)
+console.log(edad-21)

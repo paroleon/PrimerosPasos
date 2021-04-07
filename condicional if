@@ -1,0 +1,58 @@
+// doble igaul y triple igual
+console.log('5' == 5)
+console.log('5' === 5)//Compara los tipos tambien
+console.log('5' !== 5)//Compara los tipos tambien
+
+//Utilizar el triple Igual de ahora en adelante
+
+//Condicionales
+
+let edad =prompt("Cual edad?")
+edad = Number(edad) //Convierte a decimal
+if (edad >= 18){
+  console.log("Eres mayor de edad") 
+}
+if (edad < 18){
+  console.log("Eres menor de edad")  
+}
+
+//else (de lo contrario)
+if (edad >= 18){
+console.log('Mayor de edad')
+} else {
+console.log('Menor de 18')
+}
+
+//fff
+if (edad === 10){
+  console.log('la edad es 10')
+} else {
+  if(edad > 10){
+    console.log("La edad es mayor a 10")
+  }else{
+    console.log("La edad esmenor a 10")
+  }
+}
+//Condicionales (else if)
+let edad = 10
+if(edad === 10){
+  console.log('La edad es igual a 10')
+} else if (edad >10){
+console.log('La edad es mayor a 10')
+} else {
+console.log("La edad esmenor a 10")
+}
+//Operaor ternario
+var num = 10
+console.log(num>10 ? "Mayor" : "Menor o igual")
+
+//Ejemplo
+let color
+if (edad> 20){
+  color="rojo"
+} else {
+  color = "amarillo"
+}
+
+let tono = edad >20 ? "rojo" : "amarillo"
+console.log("El coler es:"+tono)

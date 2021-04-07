@@ -1,0 +1,7 @@
+//CADENAS DE TEXTO
+console.log("Comillas dobles")
+console.log('Comilla\"s sencillas')
+//Concatenar strings
+console.log("Hola"+"Mundo")
+console.log("Hola"+"345")
+console.log("54"+6)

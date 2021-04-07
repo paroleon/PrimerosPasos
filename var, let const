@@ -1,0 +1,17 @@
+//Convertir string a numero o decimal
+var h = prompt("Cual su altura?")
+h = Number(h)
+console.log(h)
+
+//var let const
+//Omitir var amla practica
+edad = 4
+let nombre = "Pedro"
+const apellido = "Perez"
+
+//const no permite reasignar
+// apellido = "Gomez" //Sale error
+
+//Utilizar let, permite reasignar
+
+//No ulizar "var" de ahora en adelante
